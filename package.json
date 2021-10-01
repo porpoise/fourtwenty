@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "description": "A promising static site generator.",
   "main": "lib/index.js",
-  "types": "typings/index.d.ts",
+  "types": "@types/index.d.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -29,6 +29,7 @@
     "@typescript-eslint/parser": "^4.32.0",
     "eslint": "^7.32.0",
     "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-import-resolver-typescript": "^2.5.0",
     "eslint-plugin-import": "^2.24.2",
     "typescript": "^4.4.3"
   },
