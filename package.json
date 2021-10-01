@@ -21,5 +21,15 @@
   "bugs": {
     "url": "https://github.com/porpoise/fourtwenty/issues"
   },
-  "homepage": "https://github.com/porpoise/fourtwenty#readme"
+  "homepage": "https://github.com/porpoise/fourtwenty#readme",
+  "devDependencies": {
+    "@types/node": "^16.10.2",
+    "typescript": "^4.4.3"
+  },
+  "dependencies": {
+    "@types/clean-css": "^4.2.5",
+    "@types/uglify-js": "^3.13.1",
+    "clean-css": "^5.2.1",
+    "uglify-js": "^3.14.2"
+  }
 }
