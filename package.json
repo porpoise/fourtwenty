@@ -3,6 +3,7 @@
   "version": "0.0.0",
   "description": "A promising static site generator.",
   "main": "lib/index.js",
+  "types": "typings/index.d.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
