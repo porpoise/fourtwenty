@@ -2,8 +2,8 @@
     "compilerOptions": {
         "target": "es2017",
 
-        "jsx": "react", 
-        "jsxFactory": "h",
+        "jsx": "react-jsx",
+        "jsxImportSource": ".",
         
         "module": "esnext",
         "moduleResolution": "node",
@@ -11,7 +11,7 @@
 
         "forceConsistentCasingInFileNames": true,
 
-        "rootDir": "./",
+        "rootDir": "./src",
         "baseUrl": "./",
         "outDir": "./dist",
 

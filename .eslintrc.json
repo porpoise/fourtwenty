@@ -29,7 +29,7 @@
         "no-param-reassign": "off",
         "no-await-in-loop": "off",
         "no-restricted-syntax": "off",
-        "import/prefer-default-exports": "off",
+        "import/prefer-default-export": "off",
         "import/extensions": ["error", "never"]
     },
     "overrides": [

@@ -1,2 +1,2 @@
-export * from "./el";
-export * from "./render";
+export { el } from "./el";
+export { render } from "./render";
