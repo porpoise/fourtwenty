@@ -17,7 +17,9 @@
 
         "strict": true,
 
-        "skipLibCheck": true
+        "skipLibCheck": true,
+
+        "newLine": "lf"
     },
     "include": ["src/**/*", "@types/**/*"],
 }

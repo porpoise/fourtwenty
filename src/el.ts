@@ -2,7 +2,7 @@ import {
     CanBeArray, IElement, PropType, RenderableResult,
 } from "@types";
 
-export default async function el<Props extends PropType>(
+export async function el<Props extends PropType>(
     tag: string | JSX.Component<Props>,
     props: Props,
     ...children: RenderableResult[]

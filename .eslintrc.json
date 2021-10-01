@@ -28,7 +28,9 @@
         "quotes": ["error", "double"],
         "no-param-reassign": "off",
         "no-await-in-loop": "off",
-        "no-restricted-syntax": "off"
+        "no-restricted-syntax": "off",
+        "import/prefer-default-exports": "off",
+        "import/extensions": ["error", "never"]
     },
     "overrides": [
         {
@@ -38,5 +40,6 @@
                 "no-use-before-define": "off"
             }
         }
-    ]
+    ],
+    "ignorePatterns": "dist/**/*"
 }

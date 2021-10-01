@@ -10,7 +10,7 @@ const buildAttrsFrom = (props: PropType | null) => (props ? Object.entries(props
     .join("").trimEnd()
     : "");
 
-export default async function render(root: CanBePromise<IElement>): Promise<string> {
+export async function render(root: CanBePromise<IElement>): Promise<string> {
     const { tag, props, children } = await Promise.resolve(root);
 
     if (SELF_CLOSING_TAGS.includes(tag)) {
