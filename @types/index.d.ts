@@ -18,6 +18,14 @@ declare namespace FourTwenty {
     type Component<Props extends PropType = {}> =
         (props: Props, children: RenderableResult[]) =>
             RenderableResult | RenderableResult[];
+
+    function el<Props extends PropType>(
+        tag: string | JSX.Component<Props>,
+        props: Props,
+        ...children: RenderableResult[]
+    ): Promise<CanBeArray<RenderableResult>>;
+
+    async function render(root: CanBePromise<IElement>): Promise<string>;
 }
 
 declare global {
